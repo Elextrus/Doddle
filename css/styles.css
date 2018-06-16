@@ -24,7 +24,7 @@ a:hover {
 /* main navigation */
 .main-nav {
   width: 100%;
-  background: black;
+  background: #FFC0CB;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("../photos/tempBanner.jpg") no-repeat top center ;
-  background-size: cover;
+  background: url("../photos/tempBanner1.jpg");
+  background-size:contain;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -130,6 +130,7 @@ header .main-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  font-family: 'Bad Script', cursive;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -206,7 +207,7 @@ h1 {
   padding: 5px;
 }
 h2 {
-  background-color: #e2e2e2;
+
   padding: 5px;
 }
 
@@ -256,6 +257,8 @@ h2 {
     text-align:center;
     border: solid black 3px;
     border-radius:5px;
+    color: deepskyblue;
+    border-color: #FFC0CB;
   }
 
 }
