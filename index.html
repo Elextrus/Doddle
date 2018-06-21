@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Doddle all the day</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="photos/tempLogo" type="image/png" sizes="16x16">
   </head>
 
   <body>
@@ -16,19 +16,64 @@
     </style>
 
     <div class="main-nav">
-      <ul class="nav">
-        <li class="name">DOODLE D E S I G N S</li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">DOODLE D E S I G N S</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
   </div>
 
   <header>
-    <img src="photos/tempLogo.png" alt="Doddle all the day logo" class="main-image">
-    <h1 class="tag_main">Doodle</h1>
-    <h1 class="tag_secondary">D E S I G N S</h1>
-    <h2 class="tag_quote">Hand painted wall murals</h2>
+      <div class="overpic">
+        <div class="caption">
+          <img src="photos/doodle_logo.png" alt="Doddle all the day logo">
+        </div>
+      </div>
+
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="photos/carousel/carousel_1.JPG" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="photos/carousel/carousel_6.JPG" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="photos/carousel/carousel_8.JPG" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="photos/carousel/carousel_3.JPG" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="photos/carousel/carousel_5.JPG" alt="Third slide">
+        </div>
+      </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
   </header>
 
   <main class="flex">
@@ -51,6 +96,7 @@
 
 </main>
 <footer>
+  <!-- Footer Links -->
 
   <div class="footerSocial">
 
@@ -62,12 +108,18 @@
 
     <a href="https://www.instagram.com" target="_blank">
     <img src="photos/instagram.png" width="35" height="34" alt="Instagram"></a>
-
-
-
   </div>
-  <p class="copyright">Copyright 2018, Matthew Denvir</p>
-</footer>
 
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:Doodle Designs
+  </div>
+  <!-- Copyright -->
+
+
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
 </html>
