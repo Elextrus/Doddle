@@ -83,8 +83,8 @@ header {
 }
 
 .overpic img{
-  width:300px;
-  height:300px;
+  width:200px;
+  height:200px;
 }
 
 header .main-image {
@@ -176,10 +176,13 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-footer {
+
+body > footer {
+    position: absolute;
+    bottom: 0;
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+
 }
 
 
@@ -223,6 +226,14 @@ h2 {
   text-transform: capitalize;
 }
 
+#card-overrides {
+   text-align:center;
+   border: solid black 3px;
+   border-radius:5px;
+   color: deepskyblue;
+   border-color: #FFC0CB;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 680px) {
 
@@ -234,7 +245,7 @@ h2 {
   }
 
   .overpic{
-    left:40%;
+    left:33%;
   }
 
   .overpic img{
@@ -265,10 +276,22 @@ h2 {
   }
 
   footer {
+
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
     font-family: 'PT Mono', monospace;
+  }
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Bad Script', cursive;
   }
 
  .card-title {
@@ -278,5 +301,11 @@ h2 {
     color: deepskyblue;
     border-color: #FFC0CB;
   }
+
+}
+
+
+
+
 
 }
